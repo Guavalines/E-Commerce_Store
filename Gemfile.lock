@@ -396,6 +396,11 @@ GEM
       solidus_webhooks (~> 0.2)
     solidus_sample (3.3.1)
       solidus_core (= 3.3.1)
+    solidus_stripe (4.4.0)
+      activemerchant (>= 1.105)
+      rexml
+      solidus_core (>= 2.3, < 4)
+      solidus_support (~> 0.8)
     solidus_support (0.9.1)
     solidus_webhooks (0.4.0)
       solidus_core (>= 2.0.0, < 4)
@@ -485,6 +490,7 @@ DEPENDENCIES
   solidus_core
   solidus_paypal_commerce_platform (~> 1.0)
   solidus_sample
+  solidus_stripe (~> 4.4)
   solidus_support
   sprockets-rails
   sqlite3 (~> 1.4)
