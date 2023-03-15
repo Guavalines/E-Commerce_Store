@@ -6,3 +6,4 @@
 //
 //= require rails-ujs
 //= require_tree .
+//= require spree/frontend/solidus_stripe
