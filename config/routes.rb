@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
-  get 'pages/home'
-  mount SolidusPaypalCommercePlatform::Engine, at: '/solidus_paypal_commerce_platform'
+  mount SolidusPaypalCommercePlatform::Engine, at: '/store'
   root to: 'pages#home'
 
   devise_for(:user, {
