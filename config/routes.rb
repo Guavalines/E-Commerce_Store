@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   mount SolidusPaypalCommercePlatform::Engine, at: '/store'
-  root to: 'pages#home'
+  root to: 'home#index'
 
   devise_for(:user, {
     class_name: 'Spree::User',
