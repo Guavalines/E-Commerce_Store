@@ -3,6 +3,9 @@
 <p>Go to <%= link_to "Store", spree_path %></p>
 <% if current_spree_user %>
   <p>Logged in as <%= current_spree_user.email %></p>
+  <%= link_to "Logout", spree.logout_path, data: {
+    turbo_method: "delete"
+  } %>
 <% else %>
-  no
+  <p>Not logged in</p>
 <% end %>
