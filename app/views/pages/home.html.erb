@@ -8,4 +8,6 @@
   } %>
 <% else %>
   <p>Not logged in</p>
+  <%= link_to "Login", spree.login_path %>
+  <%= link_to "Create Account", spree.signup_path %>
 <% end %>
