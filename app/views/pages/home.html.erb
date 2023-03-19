@@ -1,8 +1,8 @@
 <h1>Pages#home</h1>
 <p>Find me in app/views/pages/home.html.erb</p>
 <p>Go to <%= link_to "Store", spree_path %></p>
-<% if current_user %>
-  yes
+<% if current_spree_user %>
+  <p>Logged in as <%= current_spree_user.email %></p>
 <% else %>
   no
 <% end %>
