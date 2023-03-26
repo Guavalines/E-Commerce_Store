@@ -1,6 +1,5 @@
 # E-COMMERCE STORE
 
-Introduction:
 This is an e-commerce store developed using the Ruby on Rails framework and the Solidus gem, which is a popular open-source e-commerce platform built on top of Rails. The store provides a user-friendly interface for customers to browse products, add items to their cart, and make purchases. It also includes an admin panel for managing products, orders, and customers.
 
 Prerequisites:
@@ -8,6 +7,7 @@ Prerequisites:
 Ruby 2.7 or higher
 Rails 6.0 or higher
 PostgresSQL
+
 Installation:
 
 Clone the repository to your local machine.
@@ -15,6 +15,7 @@ Run bundle install to install all required dependencies.
 Run rails db:create db:migrate db:seed to create the database, run the migrations, and seed the database with sample data.
 Start the server using rails s.
 Navigate to http://localhost:3000 in your browser to view the store.
+
 Usage:
 Customers can browse products by category, search for specific items, add items to their cart, and checkout. The store includes a secure payment gateway to process credit card payments.
 
