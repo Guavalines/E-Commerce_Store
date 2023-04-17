@@ -1,9 +1,13 @@
 # E-COMMERCE STORE
 
 ## Description
-This is an e-commerce store developed using the Ruby on Rails framework and the Solidus gem, which is a popular open-source e-commerce platform built on top of Rails. The store provides a user-friendly interface for customers to browse products, add items to their cart, and make purchases. It also includes an admin panel for managing products, orders, and customers.
+This is an e-commerce store developed using the Ruby on Rails framework and the Solidus gem, which is a popular open-source e-commerce platform built on top of Rails. 
 
-Prerequisites:
+## Features
+- User-friendly interface for customers to browse products, add items to their cart, and make purchases. 
+- Includes an admin panel for managing products, orders, and customers.
+
+### Prerequisites:
 
 Ruby 2.7 or higher
 Rails 6.0 or higher
