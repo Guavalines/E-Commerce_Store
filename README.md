@@ -6,6 +6,7 @@ This is an e-commerce store developed using the Ruby on Rails framework and the 
 ## Features
 - User-friendly interface for customers to browse products, add items to their cart, and make purchases. 
 - Includes an admin panel for managing products, orders, and customers.
+- Stripe Payment
 
 ## Please initialize these before starting the app:
 
