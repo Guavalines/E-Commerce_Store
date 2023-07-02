@@ -1,4 +1,4 @@
-# E-COMMERCE STORE
+# 🛍️ E-COMMERCE STORE
 
 ## Description
 This is an e-commerce store developed using the Ruby on Rails framework and the Solidus gem, which is a popular open-source e-commerce platform built on top of Rails. 
